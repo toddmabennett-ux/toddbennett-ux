@@ -13,11 +13,11 @@ header{
 .navbar ul{
     list-style-type: none;
     background-color: blanchedalmond;
-    padding: 10px 0;
+    padding: 0px;
     margin: 0px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
 }
@@ -163,8 +163,16 @@ footer{
     background-color: blanchedalmond;
 }
 @media screen and (max-width:600px){
-    aside, section, article{
+    .navbar ul{
+        flex-direction: column;
+        padding: 10px 0;
+    }.navbar li{
+        margin: 8px 0;
+    }
+    .navbar a{
         width: 100%;
+        max-width: 300px;
+        padding: 12px 20px;
     }
 }
 .gallery{
