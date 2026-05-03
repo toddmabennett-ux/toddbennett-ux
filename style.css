@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+}
+.navbar li{
+    margin: 0 10px;
+}
+.narration{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
+.narration p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 3.5s ease forwards;
+}
+@keyframes fadeIn{
+    to {opacity: 1;}
+}
+.button{
+    background-color: blanchedalmond;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.8s ease;
+}
+.button:hover{
+    background-color: blanchedalmond;
+    transform: scale(1.05);
+}
+.hero-button{
+    display: inline-block;
+}
+img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.flipped{
+    transform: scaleX(-1);
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 25px;
+}
+.footer-card{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+.footer-card h3{
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.footer-card p{
+    margin: 5px 0 15px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer-socials img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin: 0 8px;
+    transition: tranform 0.55s ease;
+}
+.footer-socials img.linkedin{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    position: relative;
+    top: 3px;
+}
+.footer-socials img:hover{
+    transform: scale(1.2);
+}
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+.headshot .initials {
+    width: 160px;
+    height: 160px;
+    background-color: aquamarine;
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.contact{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact a{
+    display: inline-block;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: transform 0.3 ease, background 0.3s ease;
+}
+.contact a:hover{
+    transform:scale(1.05);
+    background-color: blanchedalmond;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 18px rgba(0,0,0,0.35);
+}
+.logo-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px 0;
+}
+.logo-gallery img{
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
