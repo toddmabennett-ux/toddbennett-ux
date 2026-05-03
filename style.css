@@ -247,7 +247,7 @@ footer{
         display: block;
         margin: auto;
     }
-    project-quote{
+    .project-quote{
         text-align: center;
         margin: 0 20px;
     }
