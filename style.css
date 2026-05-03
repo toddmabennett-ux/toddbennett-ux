@@ -230,4 +230,14 @@ footer{
     .headshot{
         text-align: center;
     }
+    .project{
+        text-align: center;
+    }
+    .project img{
+        display: block;
+        margin: 0 auto;
+    }
+    .project-quote{
+        text-align: center;
+    }
 }
