@@ -221,4 +221,13 @@ footer{
         margin: 0 auto;
         display: block;
     }
+    .about{
+        text-align: center;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .headshot{
+        text-align: center;
+    }
 }
