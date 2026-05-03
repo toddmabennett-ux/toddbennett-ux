@@ -213,6 +213,10 @@ footer{
         align-items: center;
         width: 100%;
     }
+    .logo-gallery a{
+        display: block;
+        margin: 0 auto;
+    }
     .logo-gallery img{
         margin: 0 auto;
         display: block;
