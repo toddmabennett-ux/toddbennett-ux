@@ -160,29 +160,7 @@ footer{
     transform:scale(1.05);
     background-color: blanchedalmond;
 }
-@media screen and (max-width:600px){
-    .navbar ul{
-        flex-direction: column;
-        padding: 10px 0;
-    }
-    .navbar li{
-        margin: 8px 0;
-    }
-    .navbar a{
-        width: 100%;
-        max-width: 300px;
-        padding: 12px 20px;
-    }
-    .logo-gallery{
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-    }
-    .logo-gallery img{
-        margin: 0 auto;
-        display: block;
-    }
-}
+
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -215,4 +193,27 @@ footer{
     max-width: 300px;
     height: auto;
     border-radius: 8px;
+}
+@media screen and (max-width:600px){
+    .navbar ul{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .navbar li{
+        margin: 8px 0;
+    }
+    .navbar a{
+        width: 100%;
+        max-width: 300px;
+        padding: 12px 20px;
+    }
+    .logo-gallery{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .logo-gallery img{
+        margin: 0 auto;
+        display: block;
+    }
 }
