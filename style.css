@@ -230,14 +230,25 @@ footer{
     .headshot{
         text-align: center;
     }
-    .project{
+    .design-gallery{
         text-align: center;
     }
-    .project img{
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .gallery a{
         display: block;
         margin: 0 auto;
     }
-    .project-quote{
+    .gallery img{
+        display: block;
+        margin: auto;
+    }
+    project-quote{
         text-align: center;
+        margin: 0 20px;
     }
 }
