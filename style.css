@@ -166,7 +166,8 @@ footer{
     .navbar ul{
         flex-direction: column;
         padding: 10px 0;
-    }.navbar li{
+    }
+    .navbar li{
         margin: 8px 0;
     }
     .navbar a{
