@@ -29,8 +29,6 @@ header{
     display: block;
     text-align: center;
     border-radius: 10px;
-    width: 100%;
-    max-width: 300px;
 }
 .navbar a:hover{
     background-color: aquamarine;
