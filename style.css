@@ -211,6 +211,7 @@ footer{
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        width: 100%;
     }
     .logo-gallery img{
         margin: 0 auto;
