@@ -178,6 +178,10 @@ footer{
         gap: 20px;
         align-items: center;
     }
+    .logo-gallery img{
+        margin: 0 auto;
+        display: block;
+    }
 }
 .gallery{
     display: grid;
