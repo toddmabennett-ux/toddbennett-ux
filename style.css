@@ -107,17 +107,21 @@ footer{
     font-size: 1rem;
     font-weight: 500;
 }
+.footer-socials{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
 .footer-socials img{
     width: 30px;
     height: 30px;
     object-fit: contain;
-    margin: 0 8px;
+    margin: 8px;
     transition: tranform 0.55s ease;
 }
 .footer-socials img.linkedin{
     width: 36px;
     height: 36px;
-    object-fit: contain;
     position: relative;
     top: 3px;
 }
