@@ -230,6 +230,9 @@ footer{
     .headshot{
         text-align: center;
     }
+    .about p{
+        text-align: left;
+    }
     .design-gallery{
         text-align: center;
     }
