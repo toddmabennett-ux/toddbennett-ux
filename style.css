@@ -232,6 +232,9 @@ footer{
     }
     .about p{
         text-align: left;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
     }
     .design-gallery{
         text-align: center;
