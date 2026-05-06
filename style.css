@@ -181,6 +181,16 @@ footer{
     transform: scale(1.05);
     box-shadow: 0 0 18px rgba(0,0,0,0.35);
 }
+.gallery figure{
+    text-align: center;
+    margin: 20px;
+}
+.gallery figcaption{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+}
 .logo-title{
     text-align: center;
     margin-bottom: 20px;
