@@ -210,8 +210,13 @@ footer{
 .ssw-hero img{
     display: block;
     margin: 40px auto;
-    width: 60%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 900px;
+}
+.ssw-hero{
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
 }
 .ssw-block{
     display: flex;
