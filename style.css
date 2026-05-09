@@ -214,9 +214,13 @@ footer{
     max-width: 500px;
 }
 .ssw-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
     max-width: 1000px;
     margin: 60px auto;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .ssw-block.reverse{
     flex-direction: row-reverse;
@@ -224,6 +228,9 @@ footer{
 .ssw-text{
     flex: 1;
     text-align: left;
+}
+.ssw-image{
+    flex: 1;
 }
 .ssw-image img{
     width: 100%;
