@@ -207,6 +207,11 @@ footer{
     height: auto;
     border-radius: 8px;
 }
+.ssw-title img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
 @media screen and (max-width:600px){
     .navbar ul{
         flex-direction: column;
