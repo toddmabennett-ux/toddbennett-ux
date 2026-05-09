@@ -218,6 +218,16 @@ footer{
     text-align: center;
     margin: 40px auto;
 }
+.ssw-block:first-of-type .ssw-text p{
+    font-size: 1.3rem;
+    line-height: 1.7;
+    text-align: left;
+    flex: 1.4;
+}
+.ssw-block:first-of-type .ssw-image{
+    max-width: 550px;
+    flex: 0.6;
+}
 .ssw-block{
     display: flex;
     align-items: center;
