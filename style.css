@@ -113,15 +113,15 @@ footer{
     gap: 12px;
 }
 .footer-socials img{
-    width: 36px;
-    height: 36px;
+    width: auto;
+    height: 40px;
     object-fit: contain;
     margin: 8px;
     transition: tranform 0.55s ease;
 }
 .footer-socials img.linkedin{
-    width: 36px;
-    height: 36px;
+    width: auto;
+    height: 40px;
     object-fit: contain;
 }
 .footer-socials img:hover{
